@@ -5,7 +5,7 @@
 - [Erick Pimentel](Erick%20Pimentel/ErickPimentel.md)
 - [Milagros Fretel](Milagros%20Fretel/MilagrosFretel.md)
 - [Miller Obispo](Miller%20Obispo/MillerObispo.md)
-- [Moises Espinal](Moises%20Espinal/MoisesEspinal.md)
+- [Moisés Espinal](Moises%20Espinal/MoisesEspinal.md)
 
 
 
