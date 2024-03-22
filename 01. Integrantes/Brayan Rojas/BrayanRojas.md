@@ -1,6 +1,6 @@
 # Brayan Rojas
 
-![Brayan Rojas](BrayanRojas.jpg)
+![Brayan Rojas](BrayanRojas.png)
 
 Presentación en curso dsadasfasdasasdf.
 
