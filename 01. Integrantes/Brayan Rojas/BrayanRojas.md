@@ -1,10 +1,21 @@
+<img src="BrayanRojas.png" alt="Brayan Rojas" style="width: 25%; height: auto;" />
+
 # Brayan Rojas
 
-![Brayan Rojas](BrayanRojas.png)
+**Información:**
 
-Presentación en curso dsadasfasdasasdf.
+  * Estudiante de Ingeniería de Sistemas - 5to Ciclo
+  * Miembro del área de RRPP. del CC. Núcleo
+  * 18 años
+  * Miembro del grupo 3
+
+
+**Contacto:**
+  * Móvil: +51 913 008 329
+  * correo: brayan.rojas.t@uni.pe / brayanrojastx@gmail.com
+
+
 
 [Ver integrantes](../integrantes.md)
 
 [Regresar al índice](../../proyecto.md)
-
