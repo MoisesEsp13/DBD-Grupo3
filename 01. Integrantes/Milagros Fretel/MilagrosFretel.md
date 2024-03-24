@@ -1,4 +1,4 @@
-<img src="Foto github.png" alt="Perrito" style="width: 25%; height: auto;" />
+<img src="Milagros Fretel.jpeg" alt="Milagros Fretel" style="width: 25%; height: auto;" />
 
 ### Milagros Fretel
 
