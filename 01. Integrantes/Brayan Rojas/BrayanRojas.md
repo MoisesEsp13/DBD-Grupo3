@@ -8,7 +8,7 @@
   * Miembro del área de RRPP. del CC. Núcleo
   * 18 años
   * Miembro del grupo 3
-  * 5to Ciclo
+  * 5to Ciclo.
 
 **Contacto:**
   * Móvil: +51 913 008 329
