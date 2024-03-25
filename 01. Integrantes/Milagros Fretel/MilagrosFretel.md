@@ -4,7 +4,8 @@
 
 **Información:**
 
-  * Estudiante de Ingeniería de Sistemas - 5to Ciclo
+  * Estudiante de Ingeniería de Sistemas
+  * 5to Ciclo
   * 19 años
   * Miembro del grupo 3
  
