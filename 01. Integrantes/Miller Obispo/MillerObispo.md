@@ -1,15 +1,14 @@
 
 # Miller Joaquin Obispo Velasquez
 
-<center><img src="MillerObispo.jpeg" alt="Miller Obispo" style="width: 35%; height: auto;" /></center>
+<center><img src="MillerObispo.jpeg" alt="Miller Obispo" style="width: 35%; height: auto;" title="Yo"/></center>
 
 
  ## **Información:**
 - [x] Estudiante de Ingeniería de Sistemas - 5to Ciclo
-19 años
-  Miembro del grupo 3
- 
- 
+- [x] 19 años
+- [x] Miembro del grupo 3
+
 
  ## **Contacto:**
 
