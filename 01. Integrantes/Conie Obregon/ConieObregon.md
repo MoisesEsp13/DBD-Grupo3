@@ -15,4 +15,4 @@
 
 [Ver integrantes](../integrantes.md)
 
-[Regresar al índice](../../proyecto.md)
+[Regresar al índice](../../README.md)

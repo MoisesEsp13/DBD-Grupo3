@@ -1,6 +1,8 @@
 # Moisés Espinal
 
-Miembro del **Grupo 3** del curso de Diseño de Base de Datos.
+* Estudiante de Ingeniería de Sistemas - 5to Ciclo.
+* 19 años.
+* Miembro del **Grupo 3** del curso de Diseño de Base de Datos.
 
 ## Contacto
 
@@ -9,4 +11,4 @@ Miembro del **Grupo 3** del curso de Diseño de Base de Datos.
 
 [Ver integrantes](../integrantes.md)
 
-[Regresar al índice](../../proyecto.md)
+[Regresar al índice](../../README.md)
