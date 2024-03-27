@@ -16,7 +16,7 @@ Por último, se entrega la información estructurada. Por información nos refir
 Procesos para migrar datos en base a los roles:
 
 
-<img src="Diagrama de Flujo.jpeg" alt="DiagramaDeFlujp" style="width: 100%; height: auto;"/>
+<img src="Flujograma.png" alt="DiagramaDeFlujo" style="width: 100%; height: auto;"/>
 
 **1. Data architec:** Estructura el flujo de información de inicio a fin.
 
