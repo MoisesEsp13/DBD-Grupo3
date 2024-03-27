@@ -10,7 +10,7 @@
 
 
 **Contacto:**
-  * Móvil: +51 931226129
+  * Móvil: +51 931 226 129
   * correo: conie.obregon.m@uni.pe / conieobregon@gmail.com
 
 

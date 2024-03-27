@@ -9,7 +9,7 @@
 
 
 **Contacto:**
-  * Móvil: +51 912417906
+  * Móvil: +51 912 417 906
   * correo: erick.pimentel.p@uni.pe / pimentelercik46@gmail.com
 
 

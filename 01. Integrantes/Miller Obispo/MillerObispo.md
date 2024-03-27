@@ -12,7 +12,7 @@
 
  ## **Contacto:**
 
-  * Móvil: +51 989894466
+  * Móvil: +51 989 894 466
   * correo: miller.obispo.v@uni.pe / millerobispo12345@gmail.com
 
 

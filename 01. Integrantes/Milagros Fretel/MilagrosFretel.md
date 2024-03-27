@@ -11,7 +11,7 @@
  
 
 **Contacto:**
-  * Móvil: +51 952728590
+  * Móvil: +51 952 728 590
   * correo: milagros.fretel.c@uni.pe / milafretel@gmail.com
 
 
