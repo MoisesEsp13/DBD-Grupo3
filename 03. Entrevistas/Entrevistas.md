@@ -4,4 +4,4 @@
 
 # Link Drive
 
-* [Entrevistas] (https://drive.google.com/drive/folders/1PYlZWAGqttakwdsFsWbWcU7rSjhyOm79)
+* [Entrevistas] (https://drive.google.com/drive/folders/1PYlZWAGqttakwdsFsWbWcU7rSjhyOm79?usp=sharing)

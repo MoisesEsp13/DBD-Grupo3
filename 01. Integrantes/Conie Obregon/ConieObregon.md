@@ -1,3 +1,5 @@
+<img src="FotoPresentación.jpg" alt="Conie Obregon" style="width: 25%; height: auto;" />
+
 # Conie Obregon
 
 **Información:**
