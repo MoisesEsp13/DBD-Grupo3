@@ -14,6 +14,8 @@
 
   * Móvil: +51 989 894 466
   * correo: miller.obispo.v@uni.pe / millerobispo12345@gmail.com
+  * usuario de Github: [MillerO186](https://github.com/MillerO186)
+
 
 
 [Ver integrantes](../integrantes.md)

@@ -13,6 +13,7 @@
 **Contacto:**
   * Móvil: +51 913 008 329
   * correo: brayan.rojas.t@uni.pe / brayanrojastx@gmail.com
+  * usuario de Github: [BrayanRx](https://github.com/BrayanRx)
 
 
 [Ver integrantes](../integrantes.md)

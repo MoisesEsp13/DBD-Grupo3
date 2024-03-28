@@ -8,6 +8,8 @@
 
 - **Correo Electrónico:** *albert.espinal.a@uni.pe*
 - **Teléfono:** _947 091 224_
+- **usuario de Github:** [MoisesEsp13](https://github.com/MoisesEsp13)
+
 
 [Ver integrantes](../integrantes.md)
 

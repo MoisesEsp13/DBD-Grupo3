@@ -12,6 +12,7 @@
 **Contacto:**
   * Móvil: +51 931 226 129
   * correo: conie.obregon.m@uni.pe / conieobregon@gmail.com
+  * usuario de Github: [conieo](https://github.com/conieo)
 
 
 

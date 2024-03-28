@@ -13,6 +13,8 @@
 **Contacto:**
   * Móvil: +51 952 728 590
   * correo: milagros.fretel.c@uni.pe / milafretel@gmail.com
+  * usuario de Github: [1MILA8](https://github.com/1MILA8)
+
 
 
 [Ver integrantes](../integrantes.md)
