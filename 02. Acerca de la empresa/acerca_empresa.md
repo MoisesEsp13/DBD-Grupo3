@@ -1,5 +1,9 @@
 # Banco de Crédito del Perú (BCP)
 
+**Proceso elegido**: Migración de analítica de datos
+
+**Contacto y su cargo**: Yin Brandon Mendoza Obregón, Analista de gobierno de datos
+
 ## Misión 
 
 Brindar soluciones financieras innovadoras y personalizadas que superen las expectativas de nuestros clientes, contribuyendo a su crecimiento y bienestar.
@@ -41,9 +45,5 @@ Ser aliados de nuestros clientes, colaboradores y país para que transformen sus
 * **Experiencia WOW:** Ser la empresa peruana que brinda la mejor experiencia a los clientes: simple, cercana y oportuna.
 * **Equipo WOW:** Ser la comunidad laboral de preferencia en el Perú, que inspira, potencia y dinamiza a los mejores profesionales.
 * **Gestión WOW:** Ser referentes regionales en gestión empresarial potenciando nuestro liderazgo histórico y transformador de la industria financiera en el Perú.
-
-
-
-[Selección de la empresa](seleccion_empresa.md)
 
 [Regresar al índice](../README.md)
