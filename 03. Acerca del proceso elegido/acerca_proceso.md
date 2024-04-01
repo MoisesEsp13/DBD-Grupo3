@@ -33,5 +33,34 @@ Procesos para migrar datos en base a los roles:
 | Secuencia | Actividad                                          | Descripción         | Responsable  |
 | --------- | -------------------------------------------------- | ------------------- | ------------ |
 | 1         | Elaborar la plantilla del Documento de Alcance DDV | Inserte Descripción | Data Steward |
+| 2         | Tomar última versión del documento DDV | Inserte Descripción | Data Steward |
+| 3         | Generar nuevo documento DDV | Inserte Descripción | Data Steward |
+| 4         | Ingresar historial de versiones | Inserte Descripción | Data Steward |
+| 5         | Solicitar actualización de la lista de desplegables | Inserte Descripción | Data Steward |
+| 6         | Actualizar lista de desplegables | Inserte Descripción | Data Gobernance Expert |
+| 7         | Ingresar información general, del aplicativo y de referencia | Inserte Descripción | Data Steward |
+| 8         | Ingresar conceptos de negocio | Inserte Descripción | Data Steward |
+| 9         | Ingresar información del modelo DDV | Inserte Descripción | Data Modeler |
+| 10        | Definir reglas funcionales de pre carga y carga | Inserte Descripción | Data Stewart |
+| 11        | Definir reglas técnicas de pre carga | Inserte Descripción | Custodio Técnico |
+| 12        | Complementar definciones técnicas | Inserte Descripción | Data Engineer |
+| 13        | Elaborar lógica pre carga | Inserte Descripción | Data Engineer |
+| 14        | Registrar seguridad de datos y consumo de aplicativo | Inserte Descripción | Data Stewart |
+| 15        | Evaluar criticidad de los datos | Inserte Descripción | Data Stewart |
+| 16        | Ingresar información adicional de proceso | Inserte Descripción | Data Engineer |
+| 17        | Actualizar Documento de Alcance DDV | Inserte Descripción | Data Stewart |
+| 18        | Validar Documento de Alcance con macro | Inserte Descripción | Data Stewart |
+| 19        | Corregir errores | Inserte Descripción | Data Stewart |
+| 20        | Corregir errores de modelamiento | Inserte Descripción | Data Modeler |
+| 21        | Generar Metadata y Linaje | Inserte Descripción | Data Stewart |
+| 22        | Revisar documentos de Alcance DDV | Inserte Descripción | Data Stewart Senior |
+| 23        | Actualizar Governance Catalog | Inserte Descripción | Data Stewart |
+| 24        | Actualizar Documento de Alcance DDV | Inserte Descripción | Data Gobernance Expert |
+
+
+
+
+
+
 
 [Regresar al índice](../README.md)
