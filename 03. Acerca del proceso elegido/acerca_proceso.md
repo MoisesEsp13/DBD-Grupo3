@@ -8,7 +8,7 @@ Primero, se recibe la información _desordenada_.
 
 Luego pasa por **calidad de datos**, debe evaluarse antes de la migración para garantizar una implementación exitosa sin pérdida de datos. La tasa de éxito de cualquier proyecto de migración de datos depende de la diversidad, el volumen y la calidad de los datos que se transfieren.
 
-Por último, se entrega la información estructurada. Por información nos refirimoos a tablas, aplicaciones, scores (conjunto de datos relacionados con un fin: perfil cliente, tipo de préstamo (hipotecario, vehicular, personal), etc).
+Por último, se entrega la información estructurada. Por información nos refirimos a tablas, aplicaciones, scores (conjunto de datos relacionados con un fin: perfil cliente, tipo de préstamo (hipotecario, vehicular, personal), etc).
 
 ## Responsables del proceso
 
@@ -32,10 +32,10 @@ Procesos para migrar datos en base a los roles:
 
 | Secuencia | Actividad                                          | Descripción         | Responsable  |
 | --------- | -------------------------------------------------- | ------------------- | ------------ |
-| 1         | Elaborar la plantilla del Documento de Alcance DDV | Inserte Descripción | Data Steward |
-| 2         | Tomar última versión del documento DDV | Inserte Descripción | Data Steward |
-| 3         | Generar nuevo documento DDV | Inserte Descripción | Data Steward |
-| 4         | Ingresar historial de versiones | Inserte Descripción | Data Steward |
+| 1         | Elaborar Documento de Alcance DDV | Este paso representaría la intención de crear o modificar un documento de alcance DDV a pedido de un usuario de origen o por alguna modificación que quiera hacer un integrante del squad encargo de esta tarea. De acuerdo con lo que se necesita hacer, se va a crear un nuevo documento o se va a modificar uno ya existente | Data Steward |
+| 2         | Tomar última versión del documento DDV | Si lo que se quiere es solo agregar o modificar campos, se tomará la última versión del documento  que se encuentra en el SharePoint | Data Steward |
+| 3         | Generar nuevo documento DDV | Si se quiere agregar tablas nuevas o el formato de la última versión que se encuentra en el SharePoint no es el actual, se descarga una plantilla del Documento de Alcance de la plataforma Confluence (plataforma virtual de BCP) para apartir de allí crear un nuevo Documento de Alcance | Data Steward |
+| 4         | Ingresar historial de versiones | En el documento de Alcance, en una sección del Excel, se especificará qué versión es la modificación que se está haciendo. Asimismo, se tiene que detallar cuál ha sido, en qué fecha se realizó los cambios, cuál Squad lo ha hecho, qué miembro del Squad lo ha hecho y quién fue que solicitó el cambio. Si es la primera versión del documento, esto será solo de llenado de datos| Data Steward |
 | 5         | Solicitar actualización de la lista de desplegables | Inserte Descripción | Data Steward |
 | 6         | Actualizar lista de desplegables | Inserte Descripción | Data Gobernance Expert |
 | 7         | Ingresar información general, del aplicativo y de referencia | Inserte Descripción | Data Steward |
