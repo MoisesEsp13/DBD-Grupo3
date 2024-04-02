@@ -42,10 +42,10 @@ Procesos para migrar datos en base a los roles:
 | 8         | Ingresar conceptos de negocio | Se ingresa información en los campos del primer bloque del documento de alcance DDV, que incluye el dominio, subdominio, producto de datos, la historia, es decir desde cuando se tiene la información disponilble, y por ultimo el nombre del dato junto con su definición.   | Data Steward |
 | 9       | Buscar y colocar información equivalente de las referencias | A partir de los datos del campo de referencias del DWH, se busca su equivalente respectivo en el DLK para que sea posible la migración.  | Custodio Técnico |
 | 10         | Ingresar información del modelo DDV | Se define la tabla, campos y llaves del modelo final en DDV. | Data Modeler |
-| 11        | Definir reglas funcionales de pre carga y carga | Inserte Descripción | Data Stewart |
-| 12        | Definir reglas técnicas de pre carga | Inserte Descripción | Custodio Técnico |
-| 13        | Complementar definciones técnicas | Inserte Descripción | Data Engineer |
-| 14        | Elaborar lógica pre carga | Inserte Descripción | Data Engineer |
+| 11        | Definir reglas funcionales de pre carga y carga | Las reglas de carga tienen como objetivo enlazar al universo con la tabla equivalente, hallada con las referencias, con el universo, mediante llaves. Las reglas de precarga son de varios tipos: Validación de unicidad, integridad referencial, estructura, nulidad, enriquecimiento. Se usan como filtro de registros en las tablas. Los registros que no cumplan no serán cargados al modelo sino que irán a la Tabla rejected | Data Stewart |
+| 12        | Definir reglas técnicas de pre carga | El custodio técnico  se encarga de formarlizar las reglas en SQL o similares | Custodio Técnico |
+| 13        | Complementar definciones técnicas | Lo elaborado por el custodio técnico es recibido por el Data Engineer para ejecutarlo y dar retroalimentación, se establece un ciclo de ida y vuelta entre el gobierno de datos y el data Engineer | Data Engineer |
+| 14        | Elaborar lógica pre carga | El Data Engineer se encarga de poner en PySpark lo que se formalizó anteriormente | Data Engineer |
 | 15        | Registrar seguridad de datos y consumo de aplicativo | Inserte Descripción | Data Stewart |
 | 16        | Evaluar criticidad de los datos | Inserte Descripción | Data Stewart |
 | 17        | Ingresar información adicional de proceso | Inserte Descripción | Data Engineer |
