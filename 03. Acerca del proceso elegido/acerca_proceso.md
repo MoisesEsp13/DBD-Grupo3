@@ -50,9 +50,9 @@ Procesos para migrar datos en base a los roles:
 | 16        | Evaluar criticidad de los datos | Inserte Descripción | Data Stewart |
 | 17        | Ingresar información adicional de proceso | Inserte Descripción | Data Engineer |
 | 18        | Actualizar Documento de Alcance DDV | Inserte Descripción | Data Stewart |
-| 19        | Validar Documento de Alcance con macro | Inserte Descripción | Data Stewart |
-| 20        | Corregir errores | Inserte Descripción | Data Stewart |
-| 21        | Corregir errores de modelamiento | Inserte Descripción | Data Modeler |
+| 19        | Validar Documento de Alcance con macro | Proceso encargado por el data steward, en la cual una vez culminado el llenado del documento de alcance y validar si se ha ingresado todos los campos obligatorios se debe dar clic en el botón “Validar DA DDV” . Los tipos de validación son: Validación de esquema validación de longitud y no nulidad, validación de dominio de datos, validación de fuentes.| Data Stewart |
+| 20        | Corregir errores | En caso se encuentre un atributo obligatorio sin información, se mostrará el mensaje “Se identifica errores en algunos campos, revisar el resultado de validación”, luego de aceptar le saldrá la hoja “validación” y se mostrará los campos con error. En caso todos los atributos obligatorios del documento de alcance se encuentren con información, se mostrará el mensaje “validación conforme”. | Data Stewart |
+| 21        | Corregir errores de modelamiento | El data modeler tiene que dar la validación en base a las modificaciones realizadas por el data engineer en el proceso anterior, este le indicará los cambios y errores que encuentre. Luego de ser verificado por el data modeleer se pasará a la revisión por el Data Steward. | Data Modeler |
 | 22        | Generar Metadata y Linaje | Trazabilidad de los errores presentados en todo el proceso con una explicación del error presentado | Data Stewart |
 | 23        | Actualizar Documento de Alcance DDV | Se actualiza el documento de alcance libre de errores para la posterior revisión del Data Stewart Senior | Data Gobernance Expert |
 | 24         | Revisar documentos de Alcance DDV | Validación de los documentos de alcance presentando observaciones (generalmente no se encuentran errores en este punto) | Data Stewart Senior |
