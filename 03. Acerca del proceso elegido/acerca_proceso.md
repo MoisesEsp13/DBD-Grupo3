@@ -52,10 +52,10 @@ Procesos para migrar datos en base a los roles:
 | 18        | Validar Documento de Alcance con macro | Inserte Descripción | Data Stewart |
 | 19        | Corregir errores | Inserte Descripción | Data Stewart |
 | 20        | Corregir errores de modelamiento | Inserte Descripción | Data Modeler |
-| 21        | Generar Metadata y Linaje | Inserte Descripción | Data Stewart |
-| 22        | Revisar documentos de Alcance DDV | Inserte Descripción | Data Stewart Senior |
-| 23        | Actualizar Governance Catalog | Inserte Descripción | Data Stewart |
-| 24        | Actualizar Documento de Alcance DDV | Inserte Descripción | Data Gobernance Expert |
+| 21        | Generar Metadata y Linaje | Trazabilidad de los errores presentados en todo el proceso con una explicación del error presentado | Data Stewart |
+| 22        | Actualizar Documento de Alcance DDV | Se actualiza el documento de alcance libre de errores para la posterior revisión del Data Stewart Senior | Data Gobernance Expert |
+| 23        | Revisar documentos de Alcance DDV | Validación de los documentos de alcance presentando observaciones (generalmente no se encuentran errores en este punto) | Data Stewart Senior |
+| 24        | Actualizar Governance Catalog | Se suben los documentos de alcance a InfoSphere Information Governance Catalog, que es una herramienta de IBM para el gobierno de datos | Data Stewart |
 
 
 
