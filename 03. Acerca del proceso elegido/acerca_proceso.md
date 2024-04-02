@@ -38,24 +38,25 @@ Procesos para migrar datos en base a los roles:
 | 4         | Ingresar historial de versiones | En el documento de Alcance, en una sección del Excel, se especificará qué versión es la modificación que se está haciendo. Asimismo, se tiene que detallar cuál ha sido, en qué fecha se realizó los cambios, cuál Squad lo ha hecho, qué miembro del Squad lo ha hecho y quién fue que solicitó el cambio. Si es la primera versión del documento, esto será solo de llenado de datos| Data Steward |
 | 5         | Solicitar actualización de la lista de desplegables | En caso de que se haya validado que los parámetros del documento de alcance contienen errores, se le solicita al Data Governance Expert la actualización de los parámetros de la lista de desplegables relacionada. | Data Steward |
 | 6         | Actualizar lista de desplegables | Se agrega el nuevo valor al campo relacionado con la lista desplegable, esto se realiza en un documento excel aparte denominado "DA-parámetros" que se relacionará con el excel del documento de alcance DDV. | Data Gobernance Expert |
-| 7         | Ingresar información general, del aplicativo y de referencia | Dentro del excel del documento de alcance DDV se empieza con su llenado, primero completamos los campos de la sección de "información general" que incluye quién es responsable quién es responsable del DA realizado. Luego completamos los campos de la sección "consumo de aplicativo" que nos indica que usuario origen es el que usará dicho documento. Y por ultimo, se llena la sección de referencia, dónde se encuentra el tipo de referencia, la tabla de referencia y el campo de referencia. | Data Steward |
-| 8         | Ingresar conceptos de negocio | Inserte Descripción | Data Steward |
-| 9         | Ingresar información del modelo DDV | Inserte Descripción | Data Modeler |
-| 10        | Definir reglas funcionales de pre carga y carga | Inserte Descripción | Data Stewart |
-| 11        | Definir reglas técnicas de pre carga | Inserte Descripción | Custodio Técnico |
-| 12        | Complementar definciones técnicas | Inserte Descripción | Data Engineer |
-| 13        | Elaborar lógica pre carga | Inserte Descripción | Data Engineer |
-| 14        | Registrar seguridad de datos y consumo de aplicativo | Inserte Descripción | Data Stewart |
-| 15        | Evaluar criticidad de los datos | Inserte Descripción | Data Stewart |
-| 16        | Ingresar información adicional de proceso | Inserte Descripción | Data Engineer |
-| 17        | Actualizar Documento de Alcance DDV | Inserte Descripción | Data Stewart |
-| 18        | Validar Documento de Alcance con macro | Inserte Descripción | Data Stewart |
-| 19        | Corregir errores | Inserte Descripción | Data Stewart |
-| 20        | Corregir errores de modelamiento | Inserte Descripción | Data Modeler |
-| 21        | Generar Metadata y Linaje | Trazabilidad de los errores presentados en todo el proceso con una explicación del error presentado | Data Stewart |
-| 22        | Actualizar Documento de Alcance DDV | Se actualiza el documento de alcance libre de errores para la posterior revisión del Data Stewart Senior | Data Gobernance Expert |
-| 23        | Revisar documentos de Alcance DDV | Validación de los documentos de alcance presentando observaciones (generalmente no se encuentran errores en este punto) | Data Stewart Senior |
-| 24        | Actualizar Governance Catalog | Se suben los documentos de alcance a InfoSphere Information Governance Catalog, que es una herramienta de IBM para el gobierno de datos | Data Stewart |
+| 7         | Ingresar información general y de referencia | Se empieza con el llenado del excel del documento de alcance DDV, primero completamos la sección de "información general" que incluye los datos de los responsables del DA que se esta ejecutando. Luego, se llena la sección de referencia, dónde se encuentra el tipo de referencia, esquema de referencia, la tabla de referencia y el campo de referencia, que indica el origen de los datos en base a los cuales se hará la migración. | Data Steward |
+| 8         | Ingresar conceptos de negocio | Se ingresa información en los campos del primer bloque del documento de alcance DDV, que incluye el dominio, subdominio, producto de datos, la historia, es decir desde cuando se tiene la información disponilble, y por ultimo el nombre del dato junto con su definición.   | Data Steward |
+| 9       | Buscar y colocar información equivalente de las referencias | A partir de los datos del campo de referencias del DWH, se busca su equivalente respectivo en el DLK para que sea posible la migración.  | Custodio Técnico |
+| 10         | Ingresar información del modelo DDV | Se define la tabla, campos y llaves del modelo final en DDV. | Data Modeler |
+| 11        | Definir reglas funcionales de pre carga y carga | Inserte Descripción | Data Stewart |
+| 12        | Definir reglas técnicas de pre carga | Inserte Descripción | Custodio Técnico |
+| 13        | Complementar definciones técnicas | Inserte Descripción | Data Engineer |
+| 14        | Elaborar lógica pre carga | Inserte Descripción | Data Engineer |
+| 15        | Registrar seguridad de datos y consumo de aplicativo | Inserte Descripción | Data Stewart |
+| 16        | Evaluar criticidad de los datos | Inserte Descripción | Data Stewart |
+| 17        | Ingresar información adicional de proceso | Inserte Descripción | Data Engineer |
+| 18        | Actualizar Documento de Alcance DDV | Inserte Descripción | Data Stewart |
+| 19        | Validar Documento de Alcance con macro | Inserte Descripción | Data Stewart |
+| 20        | Corregir errores | Inserte Descripción | Data Stewart |
+| 21        | Corregir errores de modelamiento | Inserte Descripción | Data Modeler |
+| 22        | Generar Metadata y Linaje | Trazabilidad de los errores presentados en todo el proceso con una explicación del error presentado | Data Stewart |
+| 23        | Actualizar Documento de Alcance DDV | Se actualiza el documento de alcance libre de errores para la posterior revisión del Data Stewart Senior | Data Gobernance Expert |
+| 24         | Revisar documentos de Alcance DDV | Validación de los documentos de alcance presentando observaciones (generalmente no se encuentran errores en este punto) | Data Stewart Senior |
+| 25        | Actualizar Governance Catalog | Se suben los documentos de alcance a InfoSphere Information Governance Catalog, que es una herramienta de IBM para el gobierno de datos | Data Stewart |
 
 
 
