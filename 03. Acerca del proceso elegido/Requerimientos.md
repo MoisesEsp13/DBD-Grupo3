@@ -1,6 +1,22 @@
 # Requerimientos
 
-### Caso de uso 1 : Creación o modificación del Documento de Alcance
+### Caso de uso 1 : Desarrollo de Interfaz de Usuario
+
+| Objetivo | Administrar la interfaz de usuario para permitir una interacción efectiva con el sistema |
+|:----------:|-------------------|
+| Descripción | Proceso por mediante el cuál se gestionan los elementos de la interfaz de usuario para garantizar una experiencia de usuario intuitiva y eficaz. |
+| Actor | <p align="center"> Diseñador de la interfaz de usuario |
+| Precondición | <p align="center"> El administrador del sistema (Ej. BCP) deberá registrar a los usuarios involucrados y proporcionarles las credenciales de inicio de sesión. |
+| <p align="center">  Paso | <p align="center">  Acción </p> |
+| 1 | El sistema está listo para la modificación de la interfaz a través de las herramientas de desarrollo como React. |
+| 2 | El diseñador de la interfaz de usuario diseña una propuesta de implementación al software desarrollado.|
+| 3 | Se presenta la propuesta a los encargados de los demás módulos y usuarios involucrados. |
+| 4 | Si el equipo acepta la propuesta, se realizan pruebas con las modificaciones realizadas para garantizar que no afecte negativamente al sistema de carga de datos. |
+| 5 | Se implementan las modificaciones sugeridas y se actualiza el Software. |
+| 6 | El caso de uso termina. |
+
+
+### Caso de uso 2 : Creación o modificación del Documento de Alcance
 
 | Objetivo | Dar inicio al proceso. |
 |:----------:|-------------------|
@@ -12,7 +28,7 @@
 | 2 | Si ha escogido la opción de “Modificar nuevo Documento de Alcance” deberá escoger el documento que se quiera modificar.|
 | 3 | Luego de haber escogido, saldrá una ventana emergente para detallar la versión del documento. Los campos que tendrá serán para especificar qué cambios se va realizar y por quien fue solicitado esos cambios. |
 
-### Caso de uso 2 : Ingreso información general
+### Caso de uso 3 : Ingreso información general
 
 | Objetivo | Completar la sección de información general con lo datos requeridos en su totalidad. |
 |:----------:|-------------------|
@@ -28,7 +44,7 @@
 | 6 | El usuario le dará click a "Siguiente", para poder ingresar los datos de la siguiente sección. |
 | 7 | El caso de uso culmina. |
 
-### Caso de uso 3 : Ingreso información de referencia
+### Caso de uso 4 : Ingreso información de referencia
 
 | Objetivo | Completar los campos de información de referencia. |
 |:----------:|-------------------|
@@ -44,7 +60,7 @@
 | 6 | El usuario le dará click a "Siguiente". |
 | 7 | El caso de uso culmina. |
 
-### Caso de uso 4 : Ingreso conceptos de negocio
+### Caso de uso 5 : Ingreso conceptos de negocio
 | Objetivo | Completar los campos respectivos de los conceptos de negocio. |
 |:----------:|-------------------|
 | Descripción | Proceso por el cual el usuario podrá seleccionar datos o insertarlos, dependiendo del caso, en cada campo requerido. |
@@ -63,7 +79,7 @@
 | 9 | El usuario le dará click a "Siguiente". |
 | 10 | El caso de uso culmina. |
 
-### Caso de uso 5: Ingresar información del modelo DDV
+### Caso de uso 6 : Ingresar información del modelo DDV
 
 | Objetivo | Completar los campos de información del modelo DDV |
 |:----------:|-------------------|
@@ -82,7 +98,7 @@
 | 10 | El usuario le dará click a "Guardar". |
 | 11 | El caso de uso culmina. |
 
-### Caso de uso 6 : Buscar y colocar equivalencias
+### Caso de uso 7 : Buscar y colocar equivalencias
 
 
 | Objetivo | Buscar las equivalencias de los campos de referencia en una base de datos y autocompletarlas en los campos requeridos.|
