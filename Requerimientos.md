@@ -237,7 +237,7 @@
 | 7 | El usuario actualizará el documento de Alcance DDV  |
 | 8 | El usuario guardará el documento de Alcance DDV|
 | 9 | El caso de uso culmina. |
-### Caso de uso 15 : Actualizar Governance Catalog
+### Caso de uso 16 : Actualizar Governance Catalog
 | Objetivo | Tener el archivo actualizado en  el Governance Catalog para una mejor seguridad |
 |:----------:|-------------------|
 | Descripción | En este proceso se actualizará el Governance Catalog añadiendo el documento de alcance DDV sin error alguno  |
