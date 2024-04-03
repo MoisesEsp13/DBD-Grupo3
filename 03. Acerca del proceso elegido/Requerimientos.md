@@ -12,7 +12,7 @@
 | 2 | Si ha escogido la opción de “Modificar nuevo Documento de Alcance” deberá escoger el documento que se quiera modificar.|
 | 3 | Luego de haber escogido, saldrá una ventana emergente para detallar la versión del documento. Los campos que tendrá serán para especificar qué cambios se va realizar y por quien fue solicitado esos cambios. |
 
-### Caso de uso (ingresar nro) : Ingreso información general
+### Caso de uso 2 : Ingreso información general
 
 | Objetivo | Completar la sección de información general con lo datos requeridos en su totalidad. |
 |:----------:|-------------------|
@@ -28,7 +28,7 @@
 | 6 | El usuario le dará click a "Siguiente", para poder ingresar los datos de la siguiente sección. |
 | 7 | El caso de uso culmina. |
 
-### Caso de uso (ingresar nro) : Ingreso información de referencia
+### Caso de uso 3 : Ingreso información de referencia
 
 | Objetivo | Completar los campos de información de referencia. |
 |:----------:|-------------------|
@@ -44,7 +44,7 @@
 | 6 | El usuario le dará click a "Siguiente". |
 | 7 | El caso de uso culmina. |
 
-### Caso de uso (ingresar numero) : Ingreso conceptos de negocio
+### Caso de uso 4 : Ingreso conceptos de negocio
 | Objetivo | Completar los campos respectivos de los conceptos de negocio. |
 |:----------:|-------------------|
 | Descripción | Proceso por el cual el usuario podrá seleccionar datos o insertarlos, dependiendo del caso, en cada campo requerido. |
@@ -63,7 +63,7 @@
 | 9 | El usuario le dará click a "Siguiente". |
 | 10 | El caso de uso culmina. |
 
-### Caso de uso (ingresar numero) : Ingresar información del modelo DDV
+### Caso de uso 5: Ingresar información del modelo DDV
 
 | Objetivo | Completar los campos de información del modelo DDV |
 |:----------:|-------------------|
@@ -82,7 +82,7 @@
 | 10 | El usuario le dará click a "Guardar". |
 | 11 | El caso de uso culmina. |
 
-### Caso de uso (ingresar numero) : Buscar y colocar equivalencias
+### Caso de uso 6 : Buscar y colocar equivalencias
 
 
 | Objetivo | Buscar las equivalencias de los campos de referencia en una base de datos y autocompletarlas en los campos requeridos.|
