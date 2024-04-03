@@ -112,3 +112,5 @@
 | 3 | El sistema asigna a cada campo su respectiva equivalencia. |
 | 4 | El sistema autocompleta los campos requeridos con las equivalencias asignadas en el documento DDV.|
 | 5 | El caso de uso culmina |
+
+
