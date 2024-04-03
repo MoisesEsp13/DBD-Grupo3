@@ -39,19 +39,23 @@ Colocar equivalencias en los campos requeridos.
 
 ## Módulo de Reglas de Precarga y Carga 
 
-Se encargará de mostrar el uso de las reglas de precarga obligatorias, así como considerar los casos de aplicación de las demás reglas, facilitará el aplicar las reglas de precarga opcionales al encargado mediante una lista desplegable, así como mostrar una descripción de en qué consiste cada una de estas reglas. 
+Se trata de aplicar las reglas de precarga obligatorias y sus soluciones (Table Reject), así como considerar los casos de aplicación de las demás reglas (condiciones), considera casuítico aplicar las reglas de precarga opcionales, el encargado de decidir lo hace mediante una lista desplegable en excel,también se muestra una descripción de lo que hace cada una de las reglas.
 
-Sobre las reglas de carga se mostrará una pantalla que reciba el codigo en SQL, PySpark, pseudocódigo, etc. Por los lineamientos de la empresa cada paso podrá ser explicado.
+Sobre las reglas de carga se trata de escribir el codigo en SQL, PySpark, pseudocódigo, etc. Además se debe explicar paso por paso y de manera que puedan ser entendidos por todos los usuarios del negocio. 
 
 Este modulo interacciona con el de Ingreso de información y equivalencias, pues en las reglas de carga se hacen los joins entre las referencias y el universo.
 
 #### Responsabilidades
 
-Verificar las reglas de precarga obligatorias y consultar sobre las opcionales.
+Verificar las reglas de precarga obligatorias y enviar a la tabla Reject las que no cumplan.
+
+Consultar la aplicación de las reglas de precarga opcionales.
 
 Mostrar una descripción adecuada de las reglas de precarga.
 
 Posibilitar la comprensión del usuario de negocio de las reglas de carga, explicando paso a paso la codificación.
+
+
 
 ## Módulo de Registro de Seguridad del Dato
 
