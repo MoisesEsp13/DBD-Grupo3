@@ -95,10 +95,19 @@ Este módulo interactúa con el Módulo de Ingreso de Información e Equivalenci
 * Actulizar el Documento de alcance DDV preliminar
 ## Módulo de  Reporte y Registro de errores
 
-Ingresar descripción
 
-Ingresar interracción con otros módulos
+Este módulo se encargará de hacer el reporte de errores ocurridos y corregidos, la cual se usará la trazabilidad de los errores presentados para finalmente validar y actualizarlo en el Governance Catalog.
 
-Ingresar responsabilidades
+
+### Interacción 
+
+Este módulo interacciona con el módulo de ingreso de información y equivalencias, módulo de reglas de precarga y carga y módulo de seguridad del dato.
+### Responsabilidades
+* reportar los errores indicando que campo tiene dicho error
+* corregir los errores de acuerdo a los tipos de validación
+* trazabilidad de los errores detallando el porqué de dicho error
+registrar los errores.
+* actualizar el registro de errores en el Governance Catalog.
+
 
 # Diagrama UML
