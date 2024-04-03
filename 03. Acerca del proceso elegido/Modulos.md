@@ -43,6 +43,8 @@ Se trata de aplicar las reglas de precarga obligatorias y sus soluciones (Table 
 
 Sobre las reglas de carga se trata de escribir el codigo en SQL, PySpark, pseudocódigo, etc. Además se debe explicar paso por paso y de manera que puedan ser entendidos por todos los usuarios del negocio. 
 
+#### Interacción
+
 Este modulo interacciona con el de Ingreso de información y equivalencias, pues en las reglas de carga se hacen los joins entre las referencias y el universo.
 
 #### Responsabilidades
