@@ -1,12 +1,24 @@
 # Módulos
 
-## Módulo de Registro de Usuario
+## Módulo de Interfaz de Usuario
 
-Ingresar descripción
+Se encarga de la interacción del usuario con el software creado, encargándose de la disposición de los elementos visuales y sus respectivas funciones.
 
-Ingresar interracción con otros módulos
+#### Interracción con otros módulos: 
+Esta presente como estrategias de diseño para cada funcionalidad en todos los módulos.
 
-Ingresar responsabilidades
+#### Responsabilidades
+* Diseñar funciones y elementos de interacción en la interfaz web.
+* Presentar información de manera clara y comprensible para el usuario.
+* Facilitar la interacción del usuario con el sistema o la aplicación.
+* Garantizar la consistencia en el diseño y la experiencia del usuario en toda la aplicación.
+* Validar y procesar la entrada del usuario de manera adecuada.
+* Proporcionar retroalimentación instantánea sobre las acciones del usuario.
+* Adaptarse a diferentes dispositivos y tamaños de pantalla para garantizar la accesibilidad y la usabilidad en diversas plataformas.
+* Mantener un diseño visual atractivo y coherente con la identidad de la marca o el estilo de la aplicación.
+* Optimizar el rendimiento para garantizar una respuesta rápida y fluida durante la interacción del usuario.
+* Integrarse de manera efectiva con otros módulos del sistema para lograr funcionalidades completas y sin problemas.
+* Evolucionar y actualizarse según las necesidades del usuario y los cambios en los requisitos del sistema o la aplicación.
 
 ## Módulo de Inicialización de Documento
 
