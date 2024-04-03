@@ -1,5 +1,17 @@
 # Requerimientos
 
+### Caso de uso 1 : Creación o modificación del Documento de Alcance
+
+| Objetivo | Dar inicio al proceso. |
+|:----------:|-------------------|
+| Descripción | Proceso donde se da inicio a la creación o modificación de un documento que sirve como garantía para el proceso de migración de datos y este pueda ser entregado al usuario de destino. |
+| Actor | <p align="center"> Data Steward |
+| Precondición | <p align="center"> El usuario debió iniciar sesión con sus credenciales. |
+| <p align="center">  Paso | <p align="center">  Acción </p> |
+| 1 | El usuario una vez registrado, estará en la página principal del sistema el cual mostrará dos opciones: “Crear Nuevo Documento de Alcance” y “Modificar nuevo Documento de Alcance”. El usuario deberá escoger una de las dos opciones. |
+| 2 | Si ha escogido la opción de “Modificar nuevo Documento de Alcance” deberá escoger el documento que se quiera modificar.|
+| 3 | Luego de haber escogido, saldrá una ventana emergente para detallar la versión del documento. Los campos que tendrá serán para especificar qué cambios se va realizar y por quien fue solicitado esos cambios. |
+
 ### Caso de uso (ingresar nro) : Ingreso información general
 
 | Objetivo | Completar la sección de información general con lo datos requeridos en su totalidad. |

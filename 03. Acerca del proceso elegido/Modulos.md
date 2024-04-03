@@ -22,11 +22,17 @@ Esta presente como estrategias de diseño para cada funcionalidad en todos los m
 
 ## Módulo de Inicialización de Documento
 
-Ingresar descripción
+Este módulo es el responsable de dar comienzo a la elaboración del documento de Alcance DDV a pedido del usuario de origen para garantizar la migración de datos y a la cual se debe entregar al usuario destino.
 
-Ingresar interracción con otros módulos
+#### Interracción con otros módulos: 
+Módulo de Ingreso de Información y Equivalencias
 
-Ingresar responsabilidades
+#### Responsabilidades
+
+* Crear nuevo Documento de Alcance a partir de una platilla ya establecida.
+* Modificar Documento de Alcance.
+* Actualizar la versión  del Documento de Alcance.
+
 
 ## Módulo de Ingreso de Información y Equivalencias
 
