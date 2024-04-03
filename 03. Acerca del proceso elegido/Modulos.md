@@ -36,11 +36,19 @@ Colocar equivalencias en los campos requeridos.
 
 ## Módulo de Reglas de Precarga y Carga 
 
-Ingresar descripción
+Se encargará de mostrar el uso de las reglas de precarga obligatorias, así como considerar los casos de aplicación de las demás reglas, facilitará el aplicar las reglas de precarga opcionales al encargado mediante una lista desplegable, así como mostrar una descripción de en qué consiste cada una de estas reglas. 
 
-Ingresar interracción con otros módulos
+Sobre las reglas de carga se mostrará una pantalla que reciba el codigo en SQL, PySpark, pseudocódigo, etc. Por los lineamientos de la empresa cada paso podrá ser explicado.
 
-Ingresar responsabilidades
+Este modulo interacciona con el de Ingreso de información y equivalencias, pues en las reglas de carga se hacen los joins entre las referencias y el universo.
+
+#### Responsabilidades
+
+Verificar las reglas de precarga obligatorias y consultar sobre las opcionales.
+
+Mostrar una descripción adecuada de las reglas de precarga.
+
+Posibilitar la comprensión del usuario de negocio de las reglas de carga, explicando paso a paso la codificación.
 
 ## Módulo de Registro de Seguridad del Dato
 
