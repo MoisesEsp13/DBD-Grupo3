@@ -189,3 +189,62 @@
 | 3 | El Custodio técnico revisa las correcciones y las corrige, para volverlo a mandar.|
 | 4 | El ciclo continua hasta que el query haga lo que debería hacer|
 | 5 | El caso de uso culmina|
+### Caso de uso 13 : Corregir errores de modelamiento
+| Objetivo | Corregir los errores de modelamiento encontrados durante el proceso anterior  |
+|:----------:|-------------------|
+| Descripción | En este proceso se verificará qué errores fueron encontrados y cómo serán resueltos |
+| Actor | <p align="center"> Data Modeler |
+| Precondición | <p align="center"> Tener el Doc. de alcance con la información adicional |
+| <p align="center">  Paso | <p align="center">  Acción </p> |
+| 1 | El usuario presiona el botón "validar DA DDV"|
+| 2 | El sistema generará el reporte de errores de modelado |
+| 3 | El usuario presionará "aceptar"  |
+| 4 | El sistema le dará un reporte más detallado donde podrá editar |
+| 5 | El usuario corregirá los errores cambiando los campos incorrectos |
+| 6 | El usuario presionará "ok" |
+| 7 | El sistema le informará que los errores de modelado fueron corregidos |
+| 8 | El usuario guardará el documento |
+| 9 | El caso de uso culmina. |
+### Caso de uso 14 : Corregir otros errores
+| Objetivo | Corregir los otros errore encontrados luego de corregir los errores de modelamiento  |
+|:----------:|-------------------|
+| Descripción | En este proceso se verificará qué otros errores fueron encontrados y cómo serán resueltos |
+| Actor | <p align="center"> Data Steward |
+| Precondición | <p align="center"> Tener el Doc. de alcance guardado anteriormente |
+| <p align="center">  Paso | <p align="center">  Acción </p> |
+| 1 | El usuario presiona el botón "validar DA DDV"|
+| 2 | El sistema generará el reporte de otros errores |
+| 3 | El usuario presionará "aceptar"  |
+| 4 | El sistema le dará un reporte más detallado donde podrá editar |
+| 5 | El usuario corregirá los errores cambiando los campos incorrectos |
+| 6 | El usuario presionará "ok" |
+| 7 | El sistema le informará que los otros errores fueron corregidos |
+| 8 | El usuario guardará el documento |
+| 9 | El caso de uso culmina. |
+### Caso de uso 15 : Generar metadata y linaje
+| Objetivo | Tener guardado el registro de errores encontrados y corregidos durante todos los cambios realizados anterioremente  |
+|:----------:|-------------------|
+| Descripción | En este proceso se hará el registro de errores encontrados y solucionados  |
+| Actor | <p align="center"> Data Steward |
+| Precondición | <p align="center"> Tener el Doc. de alcance guardado anteriormente |
+| <p align="center">  Paso | <p align="center">  Acción </p> |
+| 1 | El usuario realizará trazabilidad con los metadatos|
+| 2 | El sistema botará un archivo donde se encuentran todos los errores ocurridos |
+| 3 | El usuario presionará cada error |
+| 4 | El sistema le hará el detalle de cada error|
+| 5 | El usuario guardará todo el registro |
+| 6 | El sistema le informará que los errores se registraron correctamente |
+| 7 | El usuario actualizará el documento de Alcance DDV  |
+| 8 | El usuario guardará el documento de Alcance DDV|
+| 9 | El caso de uso culmina. |
+### Caso de uso 15 : Actualizar Governance Catalog
+| Objetivo | Tener el archivo actualizado en  el Governance Catalog para una mejor seguridad |
+|:----------:|-------------------|
+| Descripción | En este proceso se actualizará el Governance Catalog añadiendo el documento de alcance DDV sin error alguno  |
+| Actor | <p align="center"> Data Governance Expert |
+| Precondición | <p align="center"> Tener el Doc. de alcance guardado anteriormente sin errores |
+| <p align="center">  Paso | <p align="center">  Acción </p> |
+| 1 | El usuario escogerá el archivo de alcance DDV actualizado últimamente|
+| 2 | El usuario añadirá el archivo a la sección de "Documento de alcance DDV oficial" |
+| 3 | El sistema actualizará el Governance Catalog|
+| 4 | El caso de uso culmina. |
