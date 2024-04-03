@@ -62,6 +62,6 @@ Procesos para migrar datos en base a los roles:
 
 
 
-
+[Glosario](GlosarioDatos.md)
 
 [Regresar al índice](../README.md)
