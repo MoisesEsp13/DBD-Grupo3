@@ -112,3 +112,39 @@
 | 3 | El sistema asigna a cada campo su respectiva equivalencia. |
 | 4 | El sistema autocompleta los campos requeridos con las equivalencias asignadas en el documento DDV.|
 | 5 | El caso de uso culmina |
+### Caso de uso 8 : Registrar la Seguridad de datos
+
+| Objetivo | Completar la información de seguridad de datos  |
+|:----------:|-------------------|
+| Descripción | En este proceso se ingresan los datos de seguridad definidos anteriormente.  |
+| Actor | <p align="center"> Data Steward |
+| Precondición | <p align="center"> Que esté completa la sección de información de referencias |
+| <p align="center">  Paso | <p align="center">  Acción </p> |
+| 1 | El usuario selecciona la condición del dato DAC (SI/NO) |
+| 2 | El usuario selecciona la criticidad del dato. |
+| 3 | El usuario selecciona el sustento de criticidad |
+| 4 | El usuario selecciona el nivel de seguridad |
+| 5 | El usuario selecciona la frecuencia de actualización |
+| 6 | El usuario selecciona el uso en reporte regulatorio |
+| 7 | El usuario selecciona la entidad regulatoria|
+| 8 | El usuario le dará click a "Actualizar Doc DDV", para poder actualizar los datos y tener una versión preliminar. |
+| 9 | El usuario le dará click a "Siguiente", para poder ingresar los datos de la siguiente sección. |
+| 10 | El caso de uso culmina. |
+
+### Caso de uso 9 : Registrar información adicional
+
+| Objetivo | Ingresar los datos de la información adicioanal  |
+|:----------:|-------------------|
+| Descripción | En este proceso se ingresan los datos de la información adicional de proceso |
+| Actor | <p align="center"> Data Steward |
+| Precondición | <p align="center"> Tener el Doc. de alcance preliminar |
+| <p align="center">  Paso | <p align="center">  Acción </p> |
+| 1 | El usuario ingresa el nombre de la tabla DDV|
+| 2 | El usuario ingresa el combre del Aplicativo |
+| 3 | El sistema genera el Nombre del proceso. |
+| 4 | El usuario ingresa el Nombre del Job@ |
+| 5 | El usuario selecciona la Frecuencia de ejecución |
+| 6 | El usuario selecciona el Detalle de la Frecuencia |
+| 7 | El usuario indica un comentario alusivo a la frecuencia de ejecución del job predecesor. |
+| 8 | El usuario le dará click a "Siguiente", para poder ingresar los datos de la siguiente sección. |
+| 9 | El caso de uso culmina. |
