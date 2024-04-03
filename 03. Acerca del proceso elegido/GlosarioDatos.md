@@ -9,8 +9,8 @@
 | 5  |Campo referencia | Campo asociado a la entidad, tabla o broad. |
 | 6  |Dominio | Owner de la información. |
 | 7  |Subdominio | Agrupamientos de información específicos a cargo de distintos equipos dentro del dominio. |
-| 8  |Ingresar término | Ingresar definición |
-| 9  |Ingresar término | Ingresar definición |
+| 8  |Usuario Origen | Cliente interno del área que requiere la migración de datos. |
+| 9  |Usuario Destino | Cliente interno del área a la que se va a migrar los datos |
 | 10  |Ingresar término | Ingresar definición |
 | 11 |Ingresar término | Ingresar definición |
 | 12 |Ingresar término | Ingresar definición |

@@ -86,22 +86,29 @@ Este módulo se encarga de registrar los datos sensibles así como la criticidad
 
 Este módulo interactúa con el Módulo de Ingreso de Información e Equivalencias.
 ### Responsabilidades
-* Revisar el Documento de interfaz. 
-* Identificar los datos de alta criticidad.
-* Registrar dichos datos en la sección DAC mediante la lista despegable.
-* Registrar la criticidad del dato de acuerdo al pedido del ususario.
-* Registrar,el sustento de la criticidad del dato si es que es considerado crítico.
+* Registrar dichos datos en la sección DAC .
+* Registrar la criticidad del dato.
+* Registrar el sustento de la criticidad del dato si es que es considerado crítico.
 * Registrar el Nivel de seguridad de dicho dato.
 * Registrar la frecuencia de actualización del dato en la fuente.
-* Llenar el consumo aplicativo solo si aplica para su casi de negocio.
 * Llenar la información adicional de acuerdo a los lineamientos.
-* Actulizar el Documento de alcance DDV preliminar en el Sharepoint.
+* Actulizar el Documento de alcance DDV preliminar
 ## Módulo de  Reporte y Registro de errores
 
-Ingresar descripción
 
-Ingresar interracción con otros módulos
+Este módulo se encargará de hacer el reporte de errores ocurridos y corregidos, la cual se usará la trazabilidad de los errores presentados para finalmente validar y actualizarlo en el Governance Catalog.
 
-Ingresar responsabilidades
+
+### Interacción 
+
+Este módulo interacciona con el módulo de ingreso de información y equivalencias, módulo de reglas de precarga y carga y módulo de seguridad del dato.
+### Responsabilidades
+* reportar los errores indicando que campo tiene dicho error
+* corregir los errores de acuerdo a los tipos de validación
+* trazabilidad de los errores detallando el porqué de dicho error
+registrar los errores.
+* actualizar el registro de errores en el Governance Catalog.
+
 
 # Diagrama UML
+[DiagramaUML](https://lucid.app/lucidchart/ca94a4af-ce07-40c8-b99d-e0010a8ef1df/edit?beaconFlowId=D353CD2FED807B85&invitationId=inv_a5ba4607-1d4e-42e2-bff5-ce6a936fa2a3&page=0_0#)

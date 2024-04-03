@@ -12,4 +12,7 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
 
 4. [Entrevistas](04.%20Entrevistas/Entrevistas.md)
 
-5. Otra sección
+5. [Modulos](Modulos.md)
+
+6. [Requerimientos](Requerimientos.md)
+
