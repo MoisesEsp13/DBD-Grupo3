@@ -2,9 +2,9 @@
 
 ### Caso de uso 1 : Registro de usuario
 
-| Objetivo | Registro de un nuevo usuario por parte del administrador del sistema, proporcionándole las credenciales de inicio de sesión necesarias. |
+| Objetivo | Registrar un nuevo usuario en el sistema. |
 |:----------:|-------------------|
-| Descripción | Proceso por mediante el cuál se gestionan los elementos de la interfaz de usuario para garantizar una experiencia de usuario intuitiva y eficaz. |
+| Descripción | Registro de un nuevo usuario por parte del administrador del sistema, proporcionándole las credenciales de inicio de sesión necesarias. |
 | Actor | <p align="center"> Administrador del sistema |
 | Precondición | <p align="center"> El administrador del sistema debe estar autenticado en el sistema y tener los privilegios necesarios para registrar nuevos usuarios |
 | <p align="center">  Paso | <p align="center">  Acción </p> |
@@ -15,8 +15,38 @@
 | 5 | Se envían las credenciales de inicio de sesión al nuevo usuario, junto con las instrucciones necesarias para acceder al sistema. |
 | 6 | El caso de uso termina. |
 
+### Caso de uso 2 : Autenticación de Usuario
 
-### Caso de uso 2 : Creación o modificación del Documento de Alcance
+| Objetivo | Autenticar a un usuario en el sistema. |
+|:----------:|-------------------|
+| Descripción | Proceso mediante el cual un usuario proporciona sus credenciales de inicio de sesión para acceder al sistema. |
+| Actor | <p align="center"> Usuario |
+| Precondición | <p align="center">El usuario debe haber sido previamente registrado en el sistema y poseer credenciales de inicio de sesión válidas. |
+| <p align="center">  Paso | <p align="center">  Acción </p> |
+| 1 | El usuario accede a la página de inicio de sesión del sistema. |
+| 2 | El usuario ingresa su nombre de usuario y contraseña en los campos correspondientes.|
+| 3 | El sistema valida las credenciales ingresadas por el usuario. |
+| 4 | Si las credenciales son válidas, el usuario es autenticado y redirigido al panel principal del sistema. |
+| 3 | Si las credenciales son inválidas, el sistema muestra un mensaje de error al usuario y le permite volver a intentarlo. |
+| 6 | El caso de uso termina. |
+
+### Caso de uso 3 : Protección contra ataques de Phishing
+
+| Objetivo | Proteger al sistema y a los usuarios contra ataques de phishing. |
+|:----------:|-------------------|
+| Descripción | Proceso mediante el cual el sistema implementa medidas de seguridad para prevenir y mitigar los ataques de phishing, protegiendo así la información confidencial de los usuarios. |
+| Actor | <p align="center"> Administrador del sistema |
+| Precondición | <p align="center">El sistema debe tener implementadas medidas de seguridad adecuadas y actualizadas para proteger contra ataques de phishing. |
+| <p align="center">  Paso | <p align="center">  Acción </p> |
+| 1 | El sistema utiliza filtros de correo electrónico (bcp) para detectar y bloquear correos electrónicos sospechosos que puedan contener ataques de phishing. |
+| 2 | El sistema implementa herramientas de filtrado de URL para bloquear el acceso a sitios web conocidos por ser maliciosos o fraudulentos.|
+| 3 | El sistema realiza análisis de comportamiento del usuario para detectar actividades inusuales que puedan indicar un intento de phishing, como patrones de navegación anómalos o intentos de inicio de sesión desde ubicaciones no habituales. |
+| 4 | El sistema utiliza tecnologías de autenticación fuertes, como la autenticación de dos factores, para agregar una capa adicional de seguridad a las cuentas de usuario y protegerlas contra el robo de credenciales. |
+| 5 | El sistema utiliza software antivirus y antimalware actualizado para detectar y eliminar posibles amenazas de phishing en los dispositivos de los usuarios. |
+| 6 | para garantizar que se puedan restaurar en caso de un ataque exitoso de phishing o cualquier otro incidente de seguridad. |
+| 7 | El caso de uso termina. |
+
+### Caso de uso 4 : Creación o modificación del Documento de Alcance
 
 | Objetivo | Dar inicio al proceso. |
 |:----------:|-------------------|
@@ -28,7 +58,7 @@
 | 2 | Si ha escogido la opción de “Modificar nuevo Documento de Alcance” deberá escoger el documento que se quiera modificar.|
 | 3 | Luego de haber escogido, saldrá una ventana emergente para detallar la versión del documento. Los campos que tendrá serán para especificar qué cambios se va realizar y por quien fue solicitado esos cambios. |
 
-### Caso de uso 3 : Ingreso información general
+### Caso de uso 5 : Ingreso información general
 
 | Objetivo | Completar la sección de información general con lo datos requeridos en su totalidad. |
 |:----------:|-------------------|
@@ -44,7 +74,7 @@
 | 6 | El usuario le dará click a "Siguiente", para poder ingresar los datos de la siguiente sección. |
 | 7 | El caso de uso culmina. |
 
-### Caso de uso 4 : Ingreso información de referencia
+### Caso de uso 6 : Ingreso información de referencia
 
 | Objetivo | Completar los campos de información de referencia. |
 |:----------:|-------------------|
@@ -60,7 +90,7 @@
 | 6 | El usuario le dará click a "Siguiente". |
 | 7 | El caso de uso culmina. |
 
-### Caso de uso 5 : Ingreso conceptos de negocio
+### Caso de uso 7 : Ingreso conceptos de negocio
 | Objetivo | Completar los campos respectivos de los conceptos de negocio. |
 |:----------:|-------------------|
 | Descripción | Proceso por el cual el usuario podrá seleccionar datos o insertarlos, dependiendo del caso, en cada campo requerido. |
@@ -79,7 +109,7 @@
 | 9 | El usuario le dará click a "Siguiente". |
 | 10 | El caso de uso culmina. |
 
-### Caso de uso 6 : Ingresar información del modelo DDV
+### Caso de uso 8 : Ingresar información del modelo DDV
 
 | Objetivo | Completar los campos de información del modelo DDV |
 |:----------:|-------------------|
@@ -98,8 +128,7 @@
 | 10 | El usuario le dará click a "Guardar". |
 | 11 | El caso de uso culmina. |
 
-### Caso de uso 7 : Buscar y colocar equivalencias
-
+### Caso de uso 9 : Buscar y colocar equivalencias
 
 | Objetivo | Buscar las equivalencias de los campos de referencia en una base de datos y autocompletarlas en los campos requeridos.|
 |:----------:|-------------------|
@@ -112,7 +141,8 @@
 | 3 | El sistema asigna a cada campo su respectiva equivalencia. |
 | 4 | El sistema autocompleta los campos requeridos con las equivalencias asignadas en el documento DDV.|
 | 5 | El caso de uso culmina |
-### Caso de uso 8 : Registrar la Seguridad de datos
+
+### Caso de uso 10 : Registrar la Seguridad de datos
 
 | Objetivo | Completar la información de seguridad de datos  |
 |:----------:|-------------------|
@@ -131,7 +161,7 @@
 | 9 | El usuario le dará click a "Siguiente", para poder ingresar los datos de la siguiente sección. |
 | 10 | El caso de uso culmina. |
 
-### Caso de uso 9 : Registrar información adicional
+### Caso de uso 11 : Registrar información adicional
 
 | Objetivo | Ingresar los datos de la información adicioanal  |
 |:----------:|-------------------|
@@ -163,7 +193,7 @@
 | 4 | De ser determinado necesario se aplican las reglas de precarga opcionales|
 | 5 | El caso de uso culmina |
 
-### Caso de uso 11: Definir Reglas técnicas de carga
+### Caso de uso 12: Definir Reglas técnicas de carga
 
 
 | Objetivo | Formalizar las reglas de carga para que puedan ser ejecutadas y realizar un query a la base de datos|
@@ -175,7 +205,7 @@
 | 1 | El Custodio Técnico se encarga de llevar el codigo hecho por el Data Steward a uno ejecutable|
 | 2 | El caso de uso culmina |
 
-### Caso de uso 12: Complementar definiciones técnicas
+### Caso de uso 13: Complementar definiciones técnicas
 
 
 | Objetivo | Comprobar el buen funcionamiento de las reglas de carga formalizadas que se tienen en el Caso de uso 11|
@@ -189,7 +219,9 @@
 | 3 | El Custodio técnico revisa las correcciones y las corrige, para volverlo a mandar.|
 | 4 | El ciclo continua hasta que el query haga lo que debería hacer|
 | 5 | El caso de uso culmina|
-### Caso de uso 13 : Corregir errores de modelamiento
+
+### Caso de uso 14 : Corregir errores de modelamiento
+
 | Objetivo | Corregir los errores de modelamiento encontrados durante el proceso anterior  |
 |:----------:|-------------------|
 | Descripción | En este proceso se verificará qué errores fueron encontrados y cómo serán resueltos |
@@ -205,7 +237,9 @@
 | 7 | El sistema le informará que los errores de modelado fueron corregidos |
 | 8 | El usuario guardará el documento |
 | 9 | El caso de uso culmina. |
-### Caso de uso 14 : Corregir otros errores
+
+### Caso de uso 15 : Corregir otros errores
+
 | Objetivo | Corregir los otros errore encontrados luego de corregir los errores de modelamiento  |
 |:----------:|-------------------|
 | Descripción | En este proceso se verificará qué otros errores fueron encontrados y cómo serán resueltos |
@@ -221,7 +255,9 @@
 | 7 | El sistema le informará que los otros errores fueron corregidos |
 | 8 | El usuario guardará el documento |
 | 9 | El caso de uso culmina. |
-### Caso de uso 15 : Generar metadata y linaje
+
+### Caso de uso 16 : Generar metadata y linaje
+
 | Objetivo | Tener guardado el registro de errores encontrados y corregidos durante todos los cambios realizados anterioremente  |
 |:----------:|-------------------|
 | Descripción | En este proceso se hará el registro de errores encontrados y solucionados  |
@@ -237,7 +273,9 @@
 | 7 | El usuario actualizará el documento de Alcance DDV  |
 | 8 | El usuario guardará el documento de Alcance DDV|
 | 9 | El caso de uso culmina. |
-### Caso de uso 16 : Actualizar Governance Catalog
+
+### Caso de uso 17 : Actualizar Governance Catalog
+
 | Objetivo | Tener el archivo actualizado en  el Governance Catalog para una mejor seguridad |
 |:----------:|-------------------|
 | Descripción | En este proceso se actualizará el Governance Catalog añadiendo el documento de alcance DDV sin error alguno  |
