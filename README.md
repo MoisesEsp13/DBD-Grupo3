@@ -6,13 +6,13 @@ Bienvenidos al repositorio del Proyecto del Curso del Grupo 3. Aquí encontrará
 
 1. [Integrantes del grupo](01.%20Integrantes/integrantes.md)
 
-2. [Acerca de la empresa](02.%20Acerca%20de%20la%20empresa/acerca_empresa.md)
+2. Entregables
 
-3. [Acerca del proceso elegido](03.%20Acerca%20del%20proceso%20elegido/acerca_proceso.md)
+    * [Entregable 1](02.1.%20Entregable%201/acerca_empresa.md)
 
-4. [Entrevistas](04.%20Entrevistas/Entrevistas.md)
+    * [Entregable 2](02.2.%20Entregable%202/entregable2.md)
 
-5. [Modulos](Modulos.md)
+    * [Entregable 3](02.3.%20Entregable%203/entregable3.md)
 
-6. [Requerimientos](Requerimientos.md)
+3. [Entrevistas](03.%20Entrevistas/Entrevistas.md)
 

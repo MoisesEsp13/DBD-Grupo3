@@ -15,3 +15,7 @@
 | 11 |Ingresar término | Ingresar definición |
 | 12 |Ingresar término | Ingresar definición |
 | 13 |Ingresar término | Ingresar definición |
+
+[Regresar al Entregable 2](entregable2.md)
+
+[Regresar al índice](../README.md)
