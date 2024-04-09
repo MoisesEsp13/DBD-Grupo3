@@ -46,4 +46,6 @@ Ser aliados de nuestros clientes, colaboradores y país para que transformen sus
 * **Equipo WOW:** Ser la comunidad laboral de preferencia en el Perú, que inspira, potencia y dinamiza a los mejores profesionales.
 * **Gestión WOW:** Ser referentes regionales en gestión empresarial potenciando nuestro liderazgo histórico y transformador de la industria financiera en el Perú.
 
+---
+
 [Regresar al índice](../README.md)

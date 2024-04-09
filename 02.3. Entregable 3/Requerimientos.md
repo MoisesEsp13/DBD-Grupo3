@@ -287,6 +287,8 @@
 | 3 | El sistema actualizará el Governance Catalog|
 | 4 | El caso de uso culmina. |
 
+***
+
 [Regresar al Entregable 3](entregable3.md)
 
 [Regresar al índice](../README.md)
