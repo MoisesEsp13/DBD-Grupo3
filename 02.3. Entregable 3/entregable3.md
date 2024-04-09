@@ -1,9 +1,9 @@
-# Entregable 2
+# Entregable 3
 
-1. [Requerimientos](01.%20Integrantes/integrantes.md)
+1. [Requerimientos](Requerimientos.md)
 
-2. [Prototipo](02.%20Acerca%20de%20la%20empresa/acerca_empresa.md)
+2. [Prototipo](Prototipo/prototipo.md)
 
-3. [Modelo Conceptual](03.%20Entrevistas/Entrevistas.md)
+3. [Modelo Conceptual](Modelo%20Conceptual/modelo_conceptual.md)
 
 [Regresar al índice](../README.md)
