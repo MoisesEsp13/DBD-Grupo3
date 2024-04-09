@@ -2,9 +2,9 @@
 
 ### Caso de uso 1 : Registro de usuario
 
-| Objetivo | Registro de un nuevo usuario por parte del administrador del sistema, proporcionándole las credenciales de inicio de sesión necesarias. |
+| Objetivo | Registrar un nuevo usuario en el sistema. |
 |:----------:|-------------------|
-| Descripción | Proceso por mediante el cuál se gestionan los elementos de la interfaz de usuario para garantizar una experiencia de usuario intuitiva y eficaz. |
+| Descripción | Registro de un nuevo usuario por parte del administrador del sistema, proporcionándole las credenciales de inicio de sesión necesarias. |
 | Actor | <p align="center"> Administrador del sistema |
 | Precondición | <p align="center"> El administrador del sistema debe estar autenticado en el sistema y tener los privilegios necesarios para registrar nuevos usuarios |
 | <p align="center">  Paso | <p align="center">  Acción </p> |
@@ -15,6 +15,20 @@
 | 5 | Se envían las credenciales de inicio de sesión al nuevo usuario, junto con las instrucciones necesarias para acceder al sistema. |
 | 6 | El caso de uso termina. |
 
+### Caso de uso 2 : Autenticación de Usuario
+
+| Objetivo | Autenticar a un usuario en el sistema. |
+|:----------:|-------------------|
+| Descripción | Proceso mediante el cual un usuario proporciona sus credenciales de inicio de sesión para acceder al sistema. |
+| Actor | <p align="center"> Usuario |
+| Precondición | <p align="center">El usuario debe haber sido previamente registrado en el sistema y poseer credenciales de inicio de sesión válidas. |
+| <p align="center">  Paso | <p align="center">  Acción </p> |
+| 1 | El usuario accede a la página de inicio de sesión del sistema. |
+| 2 | El usuario ingresa su nombre de usuario y contraseña en los campos correspondientes.|
+| 3 | El sistema valida las credenciales ingresadas por el usuario. |
+| 4 | Si las credenciales son válidas, el usuario es autenticado y redirigido al panel principal del sistema. |
+| 3 | Si las credenciales son inválidas, el sistema muestra un mensaje de error al usuario y le permite volver a intentarlo. |
+| 6 | El caso de uso termina. |
 
 ### Caso de uso 2 : Creación o modificación del Documento de Alcance
 
