@@ -1,18 +1,18 @@
 # Requerimientos
 
-### Caso de uso 1 : Desarrollo de Interfaz de Usuario
+### Caso de uso 1 : Registro de usuario
 
-| Objetivo | Administrar la interfaz de usuario para permitir una interacción efectiva con el sistema |
+| Objetivo | Registro de un nuevo usuario por parte del administrador del sistema, proporcionándole las credenciales de inicio de sesión necesarias. |
 |:----------:|-------------------|
 | Descripción | Proceso por mediante el cuál se gestionan los elementos de la interfaz de usuario para garantizar una experiencia de usuario intuitiva y eficaz. |
-| Actor | <p align="center"> Diseñador de la interfaz de usuario |
-| Precondición | <p align="center"> El administrador del sistema (Ej. BCP) deberá registrar a los usuarios involucrados y proporcionarles las credenciales de inicio de sesión. |
+| Actor | <p align="center"> Administrador del sistema |
+| Precondición | <p align="center"> El administrador del sistema debe estar autenticado en el sistema y tener los privilegios necesarios para registrar nuevos usuarios |
 | <p align="center">  Paso | <p align="center">  Acción </p> |
-| 1 | El sistema está listo para la modificación de la interfaz a través de las herramientas de desarrollo como React. |
-| 2 | El diseñador de la interfaz de usuario diseña una propuesta de implementación al software desarrollado.|
-| 3 | Se presenta la propuesta a los encargados de los demás módulos y usuarios involucrados. |
-| 4 | Si el equipo acepta la propuesta, se realizan pruebas con las modificaciones realizadas para garantizar que no afecte negativamente al sistema de carga de datos. |
-| 5 | Se implementan las modificaciones sugeridas y se actualiza el Software. |
+| 1 | El administrador del sistema accede al panel de administración de usuarios del sistema. |
+| 2 | El administrador selecciona la opción para registrar un nuevo usuario.|
+| 3 | Se solicitan al administrador los detalles del nuevo usuario: nombre, correo electrónico y rol en el sistema. |
+| 4 | El administrador ingresa la información del nuevo usuario y genera automáticamente las credenciales de inicio de sesión: número de acceso y contraseña. |
+| 5 | Se envían las credenciales de inicio de sesión al nuevo usuario, junto con las instrucciones necesarias para acceder al sistema. |
 | 6 | El caso de uso termina. |
 
 
