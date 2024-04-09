@@ -1,24 +1,23 @@
 # Módulos
 
-## Módulo de Interfaz de Usuario
+## Módulo de Seguridad
 
-Se encarga de la interacción del usuario con el software creado, encargándose de la disposición de los elementos visuales y sus respectivas funciones.
+El módulo de seguridad se encarga de administrar la autenticación, autorización y control de acceso de los usuarios al sistema, garantizando la integridad y confidencialidad de los datos.
 
-#### Interracción con otros módulos: 
-Esta presente como estrategias de diseño para cada funcionalidad en todos los módulos.
+#### Interacción con otros módulos: 
+Este módulo se integra estrechamente con todos los demás módulos del sistema para garantizar que el acceso a las funcionalidades y datos esté protegido según los roles y permisos definidos, además implementa medidas para prevenir y mitigar posibles ataques cibernéticos, protegiendo así la integridad y confidencialidad de los datos del sistema.
 
 #### Responsabilidades
-* Diseñar funciones y elementos de interacción en la interfaz web.
-* Presentar información de manera clara y comprensible para el usuario.
-* Facilitar la interacción del usuario con el sistema o la aplicación.
-* Garantizar la consistencia en el diseño y la experiencia del usuario en toda la aplicación.
-* Validar y procesar la entrada del usuario de manera adecuada.
-* Proporcionar retroalimentación instantánea sobre las acciones del usuario.
-* Adaptarse a diferentes dispositivos y tamaños de pantalla para garantizar la accesibilidad y la usabilidad en diversas plataformas.
-* Mantener un diseño visual atractivo y coherente con la identidad de la marca o el estilo de la aplicación.
-* Optimizar el rendimiento para garantizar una respuesta rápida y fluida durante la interacción del usuario.
-* Integrarse de manera efectiva con otros módulos del sistema para lograr funcionalidades completas y sin problemas.
-* Evolucionar y actualizarse según las necesidades del usuario y los cambios en los requisitos del sistema o la aplicación.
+* Gestionar el registro de usuarios, incluyendo la creación, modificación y eliminación de cuentas.
+* Implementar la autenticación de doble factor para añadir una capa adicional de seguridad al proceso de inicio de sesión.
+* Autorizar el acceso a recursos y funcionalidades según los roles y permisos asignados
+* Controlar el acceso a áreas sensibles del sistema y proteger contra intentos de intrusión.
+* Registrar y auditar la actividad de los usuarios para detectar posibles amenazas o violaciones de seguridad.
+* Gestionar la sesión de usuario, incluyendo la gestión de tokens de autenticación y la expiración de sesiones.
+* Mantener actualizadas las políticas de seguridad y protocolos de autenticación para adaptarse a las necesidades cambiantes del sistema y las regulaciones de seguridad.
+* Implementar firewalls y filtros de paquetes para controlar el tráfico de red y evitar intrusiones no autorizadas.
+* Mantener el software y los sistemas del sistema actualizados con los últimos parches de seguridad para evitar vulnerabilidades conocidas.
+
 
 ## Módulo de Inicialización de Documento
 
